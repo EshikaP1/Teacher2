@@ -274,3 +274,20 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+
+#truthTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#truthTable th, #truthTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.active-row {
+  background-color: #f0f0f0; /* Highlight color for active rows */
+}
